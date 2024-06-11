@@ -1,0 +1,15 @@
+{
+  "name": "meus-componentes",
+  "version": "1.0.0",
+  "description": "componentes para reutilização",
+  "main": "index.js",
+  "repository": "https://github.com/simonfranklin1/Meus-componentes.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Franklin",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
