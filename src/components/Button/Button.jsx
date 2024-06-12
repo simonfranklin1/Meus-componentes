@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import React from "react";
 
 const Button = ({
@@ -10,7 +11,8 @@ const Button = ({
   padding,
 }) => {
   return (
-    <button
+    <Box
+      component={"button"}
       style={{
         border: border ? border : "none",
         backgroundColor: background ? background : "#fff",
@@ -20,8 +22,8 @@ const Button = ({
       }}
       onClick={() => onClick()}
     >
-        {children}
-    </button>
+      {children}
+    </Box>
   );
 };
 
